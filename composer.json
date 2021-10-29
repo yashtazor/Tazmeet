@@ -1,0 +1,12 @@
+{
+    "name": "yash/cash-rich-sdk",
+    "description": "CashRich PHP SDK Test",
+    "type": "project",
+    "license": "GNU3",
+    "minimum-stability": "dev",
+    "require": {
+        "opentok/opentok": "4.4.x",
+        "kreait/firebase-php": "4.41",
+        "php": ">=7.2.0"
+    }
+}

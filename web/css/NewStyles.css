@@ -1,0 +1,153 @@
+body
+{
+    margin : 0;
+    padding : 5px;
+    background-image: url(../media/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#layoutContainer 
+{
+    left: 0px;
+    top: 0px;
+    height: 750px;
+    width: 1920px;
+    position: relative;
+}
+
+#footer
+{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    position: absolute;
+    bottom : 0;
+    left : 0;
+    width:100%;
+}
+
+#ed
+{
+    position: relative;
+    align-items: center;
+    float: left;    
+    z-index: 12000;
+}
+
+.x
+{
+    transform: translate(0px, -750px);
+    z-index: 0;
+    margin-bottom:-750px;
+}
+
+/*.x #footer
+{
+    display: none;
+    transition-property: all;
+    transition-delay: 5s;
+    transition-timing-function: ease;
+}
+
+.x:hover #footer 
+{
+    display:block;
+}*/
+
+footer
+{
+    background-color: rgb(36, 36, 36);
+    font-family: 'Spectral', serif;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.btn
+{
+    background-color: blueviolet;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+    background-color: rgb(105, 0, 204);
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: #fff;
+    border-bottom: transparent solid 0px;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+#screen-preview
+{
+    left: 0px;
+    top: 0px;
+    height: 750px;
+    width: 1920px;
+    position: relative;
+    z-index: -1;
+    transform: translate(0px, 0px);
+}
+
+.boxcontainer
+{
+    display: none;
+    height:740px;
+}
+
+#ChatOverlay
+{
+    transform: translate(10px, -745px);
+    z-index:11500;
+    margin-bottom: -745px;
+    display: none;
+}
+
+#leave
+{
+    background-color:red; 
+    border:2px; 
+    border-radius:5px; 
+    height:50px;
+}
+
+#leave:hover
+{
+    cursor: pointer;
+    background-color: rgb(173, 0, 0);
+}
