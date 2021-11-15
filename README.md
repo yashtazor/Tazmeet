@@ -16,23 +16,23 @@ Tazmeet is a fully-fledged video conferencing platform designed to cater from sm
 
 ## Initial Setup
 
-### Firebase Setup
+### 1. Firebase Setup
 
-First, set up the private key.
+#### Setting up the private key.
 
-* Go to the [Firebase Console](https://console.firebase.google.com) and create a new **Web** project.
+* Go to the [Firebase Console](https://console.firebase.google.com) and create a new web project.
 * Go to Project Settings &rarr; Service Accounts &rarr; Generate Private Key.
-* Create a **secret** folder inside **web** folder.
+* Create a **`secret`** folder inside **`web`** folder.
 * Store the Private Key file inside the secret folder.
 * Set the proper paths in Server.php, Client.php, Audience.php, and question.php.
 
-Once the key is set up, set up the configuration information.
+#### Setting up the configuration information.
 
 * In the Firebase Console, go to Project Settings &rarr; General.
 * Copy the Firebase Configuration information.
 * Paste it in Moderator.php, SeverJS.js, ClientJS.js, and AudienceJS.js in the commented areas.
 
-### Vonage Video API Setup
+### 2. Vonage Video API Setup
 
 * Go to [Vonage Video API Website](https://id.tokbox.com/login) and create an account.
 * Create a New Project &rarr; Vonage Video API.
@@ -41,7 +41,7 @@ Once the key is set up, set up the configuration information.
 
 ## How to run?
 
-* Fire up the localhost.
+* Fire up the localhost using WAMP or XAMPP servers.
 * Go to the Moderator page and create a meeting and generate the meeting code.
 * Share the code with the joinees.
 * Go to the Client page and choose the role to join with.
