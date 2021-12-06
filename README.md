@@ -6,7 +6,7 @@ Tazmeet is a fully-fledged video conferencing platform designed to cater from sm
 
 ## Features
 
-* Handles at least 100 users in a single meeting.
+* Handles upto 100 users in a single meeting.
 * Works by generating unique meeting codes and allowing only people entering the correct code to enter the meeting.
 * Offers different roles like Administrator, Panelists, and Audience for the meeting with different levels of control
   * **Administrator** - Is able to mute the audience and panelists (both video and audio), remove or add people, promote or demote users between different roles.  
